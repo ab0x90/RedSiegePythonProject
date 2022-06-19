@@ -16,11 +16,11 @@ This program was built to scrape the text from the URL provided, create a list o
 python3 web_scrape.py -u URL -a -o test2.txt -c
 
 #Alllinks, output to file and filter out words 4 letters or less
-python3 web_scrape.py -u https://redsiege.com/ -a -o test2.txt -l 4
+python3 web_scrape.py -u URL -a -o test2.txt -l 4
 
 #Alllinks, output to file and transform 'add'
 #Transform options are add, lower, upper, 1337 and cap
 #Values for 1337 can be easily changed in the script
-python3 web_scrape.py -u https://redsiege.com/ -a -o test2.txt -t add
+python3 web_scrape.py -u URL -a -o test2.txt -t add
 
 ```
