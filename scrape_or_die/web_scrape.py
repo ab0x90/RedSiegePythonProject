@@ -36,7 +36,7 @@ def get_arguments():
 	parser.add_argument('-c', dest='word_count', action='store_true', help='Count how many times each word appears in the list and prints them to the terminal')
 	parser.add_argument('-o', dest='output', type=str, help='Output the main list of words to a file')
 	parser.add_argument('-a', dest='alllinks_scrape', action='store_true', help='Scan the main page for any links, then fetch all text from those pages')
-	parser.add_argument('-t', dest='transform', type=str, help='Add transforms to the words, choices are: lower, upper, 1337 or add')
+	parser.add_argument('-t', dest='transform', type=str, help='Add transforms to the words, choices are: lower, upper, 1337, add or cap')
 	args = parser.parse_args()
 	return args
 
